@@ -7,13 +7,6 @@ import pandas as pd
 csv_url = "https://raw.githubusercontent.com/hiryad30/targets/main/Targets.csv"
 
 df = pd.read_csv(csv_url)
-# data = {
-#     "Inspector": [
-#         "abhishek.bhadauriya", "kasam.ganesh", "nithin.n",
-#         "yadhukrishnan.pu", "k.srikanth"
-#     ],
-#     "Target Inspection in this week": [30, 33, 31, 30, 30]
-# }
 
 df = pd.DataFrame(data)
 
