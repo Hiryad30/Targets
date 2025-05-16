@@ -8,8 +8,6 @@ csv_url = "https://raw.githubusercontent.com/hiryad30/targets/main/Targets.csv"
 
 df = pd.read_csv(csv_url)
 
-df = pd.DataFrame(data)
-
 # Get column names (assumes first column is category/item, second is target)
 item_column = df.columns[0]
 target_column = df.columns[1]
