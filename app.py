@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 
 # Load CSV using full macOS file path
-# df = pd.read_csv("Targets.csv")
-data = {
-    "Inspector": [
-        "abhishek.bhadauriya", "kasam.ganesh", "nithin.n",
-        "yadhukrishnan.pu", "k.srikanth"
-    ],
-    "Target Inspection in this week": [30, 33, 31, 30, 30]
-}
+df = pd.read_csv("Targets.csv")
+# data = {
+#     "Inspector": [
+#         "abhishek.bhadauriya", "kasam.ganesh", "nithin.n",
+#         "yadhukrishnan.pu", "k.srikanth"
+#     ],
+#     "Target Inspection in this week": [30, 33, 31, 30, 30]
+# }
 
 df = pd.DataFrame(data)
 
