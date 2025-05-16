@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load CSV using full macOS file path
-df = pd.read_csv("/Targets__ New - Sheet1.csv")
+df = pd.read_csv("Targets__ New - Sheet1.csv")
 
 # Get column names (assumes first column is category/item, second is target)
 item_column = df.columns[0]
