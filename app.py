@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 
 # Load CSV using full macOS file path
-df = pd.read_csv("Targets.csv")
+# df = pd.read_csv("Targets.csv")
+
+csv_url = "https://raw.githubusercontent.com/hiryad30/targets/main/Targets.csv"
+
+df = pd.read_csv(csv_url)
 # data = {
 #     "Inspector": [
 #         "abhishek.bhadauriya", "kasam.ganesh", "nithin.n",
